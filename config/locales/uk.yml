@@ -1,6 +1,27 @@
 uk:
   hello: "Привіт, світ!"
+  forms:
+    messages:
+      success: "Операція була успішно виконана!"
+    buttons:
+      edit: "редагувати"
+      submit: "Зберегти"
+  menu:
+    new_article: "Додати статтю"
+  posts:
+    index:
+      title: "перелік статей"
+    edit:
+      title: "редагувати статтю"
+    new:
+      title: "Додати статтю"
   activerecord:
+    models:
+      post: 'Допис'
+    attributes:
+      post:
+        title: 'Назва'
+        text: 'Текст допису'
     errors:
       messages:
         record_invalid: 'Виникли помилки: %{errors}'

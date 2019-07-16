@@ -1,12 +1,12 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Posts</h1>
+<h1><%=  t('posts.index.title') %></h1>
 
 <table>
   <thead>
     <tr>
-      <th>Title</th>
-      <th>Text</th>
+      <th><%= t('activerecord.attributes.post.title') %></th>
+      <th><%= t('activerecord.attributes.post.text') %></th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Post', new_post_path %>
+<%= link_to t('posts.new.title'), new_post_path %>
